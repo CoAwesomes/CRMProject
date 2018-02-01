@@ -1,4 +1,4 @@
-package com.coawesome.ServerApp;
+package com.coawesome;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
