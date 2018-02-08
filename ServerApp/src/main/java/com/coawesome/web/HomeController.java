@@ -14,6 +14,13 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/home")
 public class HomeController {
 
+    @RequestMapping("crm")
+    public String Hello1() {
+        return "Welcome To CRMProject";
+    }
+
+
+
     @RequestMapping("1")
     public String Hello2() {
         return "Hello test";
