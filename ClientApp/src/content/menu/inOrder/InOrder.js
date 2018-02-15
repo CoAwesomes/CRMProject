@@ -2,7 +2,7 @@
  * Created by hosea on 2018-02-10.
  */
 import React, {Component} from "react";
-import "../content/Content.css";
+import "./InOrder.css";
 
 class InOrdering extends Component {
 

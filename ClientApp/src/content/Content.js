@@ -1,6 +1,6 @@
 import React, {Component} from "react";
-import Order from "../menu/Order"
-import MenuGrid from "../menu/MenuGrid"
+import InOrder from "./menu/inOrder/InOrder"
+import Menu from "./menu/Menu"
 import "./Content.css";
 
 class Content extends Component {
@@ -22,31 +22,13 @@ class Content extends Component {
 			// inOrdering.drinks.push({})
 		});
 		console.log(this.state);
-
 	}
-
-
-	componentWillUnmount() {
-		clearInterval(this.timerID);
-	}
-
-	tick() {
-		this.setState({
-			date: new Date()
-		});
-	}
-
-	// handleClick() {
-	// 	this.setState({
-	// 		count: this.state.count + 1
-	// 	});
-	// }
 
 	render() {
 		return (
 			<div>
-				<Order drinks={this.state.inOrdering.drinks}/>
-				<MenuGrid clickHandler={this.handleClick}/>
+				<InOrder drinks={this.state.inOrdering.drinks}/>
+				<Menu clickHandler={this.handleClick}/>
 			</div>
 		);
 	}

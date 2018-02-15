@@ -2,7 +2,7 @@
  * Created by hosea on 2018-02-10.
  */
 import React, {Component} from "react";
-import Menu from './Menu';
+import DrinkGrid from './DrinkGrid';
 
 class MenuGrid extends Component {
 
@@ -18,7 +18,7 @@ class MenuGrid extends Component {
 
 	render() {
 		return (
-			<Menu/>
+			<DrinkGrid/>
 		);
 	}
 }

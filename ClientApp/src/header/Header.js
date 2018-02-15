@@ -3,6 +3,13 @@ import logo from '../logo.svg';
 import './Header.css';
 
 class Header extends Component {
+
+	tick() {
+		this.setState({
+			date: new Date()
+		});
+	}
+
   render() {
 		let hello = "Welcome to React";
 

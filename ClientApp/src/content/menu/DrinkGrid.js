@@ -4,7 +4,7 @@
 import React, {Component} from "react";
 import {Grid, Row, Col} from 'react-flexbox-grid';
 import update from 'react-addons-update'
-import './menu.css';
+import './DrinkGrid.css';
 
 class Menu extends Component {
 
