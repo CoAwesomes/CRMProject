@@ -1,5 +1,5 @@
 # CRMProject
-Cryptocurrency Risk Managing Application Project
+Cafe Relationship Managing Application Project
 
 OpenSources Container : Docker
 
