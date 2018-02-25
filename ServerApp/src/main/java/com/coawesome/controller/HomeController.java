@@ -1,6 +1,6 @@
-package com.coawesome.web;
+package com.coawesome.controller;
 
-import com.coawesome.domain.Result;
+import com.coawesome.model.Result;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
@@ -18,8 +18,6 @@ public class HomeController {
     public String Hello1() {
         return "Welcome To CRMProject";
     }
-
-
 
     @RequestMapping("1")
     public String Hello2() {
